@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const Hero = () => {
   return (
-    <div className="bg-[#0F172A] px-5 lg:px-10 pt-[70px]">
+    <div className="bg-[#0F172A] px-5 lg:px-10 pt-[80px]">
       <Header />
       <div className="py-5">
         <h1 className="font-bold text-[40px] px-4  text-[#CBD5E1] text-center">
@@ -33,6 +33,13 @@ const Hero = () => {
 
       <div className="w-full mt-4 flex justify-center items-center">
         <img src="/shoe.jpg" className="rounded-lg" alt="" />
+      </div>
+
+      <div className="sponsors w-full min-h-[50px] py-5 flex justify-center items-center ">
+        <div className="w-[50px] h-[50px] bg-[#434751] my-2 mx-2 "></div>
+        <div className="w-[50px] h-[50px] bg-[#434751] my-2 mx-2 "></div>
+        <div className="w-[50px] h-[50px] bg-[#434751] my-2  mx-2"></div>
+        <div className="w-[50px] h-[50px] bg-[#434751] my-2  mx-2"></div>
       </div>
     </div>
   );
