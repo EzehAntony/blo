@@ -46,24 +46,24 @@ const Features = () => {
     },
   ];
   return (
-    <div className=" bg-[#0F172A] w-full mt-8  px-5 lg:px-10 mb-10 ">
+    <div className=" bg-[#0F172A] w-full mt-8  px-5 lg:px-10 mb-10 flex flex-col justify-center items-center ">
       <h3 className="w-full text-[#81CCFE]  font-bold text-center text-xl">
         Features
       </h3>
-      <h1 className="text-center w-full my-2 text-3xl text-white font-bold ">
+      <h1 className="text-center w-full my-2 text-2xl lg:text-6xl text-white font-bold ">
         What you get with TailNext
       </h1>
-      <p className="w-full text-[#CBD5E1] text-center font-semibold my-4 ">
+      <p className="w-full lg:max-w-[600px] text-[#CBD5E1] text-center font-semibold my-4 ">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
         maiores ipsa enim est reprehenderit maxime dignissimos deserunt neque
         voluptatem culpa.
       </p>
 
-      <div className="w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
+      <div className="lg:px-20 w-full grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2">
         {features.map((e, i) => (
           <div
             key={i}
-            className="w-full my-5 flex flex-row justify-center items-start"
+            className="w-full my-5 lg:px-5 flex flex-row justify-center items-start"
           >
             <i className={e.class}></i>
             <div className="ml-5">
