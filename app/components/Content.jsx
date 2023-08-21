@@ -49,7 +49,7 @@ const Content = () => {
 
       <div className="w-full lg:flex justify-around items-center">
         <div className="w-full lg:w-[45%] ">
-          <p className="w-full lg:text-left text-md text-[#CBD5E1] text-center font-semibold my-4 ">
+          <p className="w-full text-left text-md text-[#CBD5E1] font-semibold my-4 ">
             Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam
             regione ut, persius eripuit quo id. Sit te euismod tacimates.
           </p>
@@ -72,7 +72,7 @@ const Content = () => {
 
       <div className="w-full mt-20 lg:flex justify-around items-center">
         <div className="order-2 w-full lg:w-[45%] ">
-          <p className="w-full lg:text-left text-md text-[#CBD5E1] text-center font-semibold my-4 ">
+          <p className="w-full text-left text-md text-[#CBD5E1] text-center font-semibold my-4 ">
             Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam
             regione ut, persius eripuit quo id. Sit te euismod tacimates.
           </p>
